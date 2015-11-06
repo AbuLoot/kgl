@@ -1,6 +1,6 @@
 <?php require VIEW_ROOT . '/templates/header.php'; ?>
   
-  <h2>Add Page</h2>
+  <h2>Добавить статью</h2>
 
   <form action="<?= BASE_URL ?>/admin/add.php" method="POST">
     <div class="form-group">

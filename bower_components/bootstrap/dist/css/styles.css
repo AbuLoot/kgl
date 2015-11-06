@@ -1,3 +1,6 @@
+body {
+  color: #2B5A6C;
+}
 @media (min-width: 1200px) {
   .container {
     width: 1000px;
@@ -6,12 +9,27 @@
 .logo > img {
   width: 254px;
 }
+.bg-grey {
+  background-color: #ECEFF1;
+}
+.bg-blue {
+  background-color: #3EA7C5;
+}
+.text-15 {
+  font-size: 15px;
+}
+.text-16 {
+  font-size: 16px;
+}
 .nav-menu {
   padding: 15px 0;
   background-color: #F9F9F9;
 }
 .nav-menu ul {
   margin-top: 37px;
+}
+.nav-menu ul li {
+  margin: 5px 0;
 }
 .nav-menu ul li a {
   padding: 5px;
@@ -20,39 +38,129 @@
 }
 .nav-menu ul li a:hover {
   color: #fff;
-  border-radius: 5px;
+  border-radius: 3px;
   background-color: #2B5A6C;
   text-decoration: none;
 }
 .nav-menu ul li a.active {
   color: #fff;
-  border-radius: 5px;
+  border-radius: 3px;
   background-color: #2B5A6C;
 }
 
 /* Jumbotron */
-.jumbotron {
-  position: absolute;
-  top: 135px;
-  z-index: 200;
-  background-color: transparent;
-  padding: 0;
-}
-.window {
-  position: relative;
-  top: 135px;
-  z-index: 100;
-  width: 100%;
-  height: 620px;
+
+section.jumbotron {
+  color: #fff;
   background-color: #2B5A6C;
-  opacity: 0.5;
+  opacity: 0.9;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
   filter: alpha(opacity=90);
+  border-radius: 5px;
+  margin-top: -550px;
+  margin-bottom: 50px;
 }
-.flag {
-  position: absolute;
-  top: 135px;
-  z-index: 100; 
+
+p.form-text {
+  font-size: 20px;
+}
+
+/* Content */
+.about, .difference, .cost, .translate, .how, .nice, .contacts {
+  padding: 40px;
+}
+.about-text {
+  font-size: 18px;
+}
+.about > div > img {
+  width: 70%;
+  margin: 0 auto 20px auto;
+}
+/*---------*/
+@media (min-width: 768px) {
+  .difference .panel {
+    height: 350px;
+  }
+}
+.difference p {
+  font-size: 16px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/*---------*/
+@media (min-width: 992px) {
+  .price-image {
+    max-width: 914px;
+    height: 1158px;
+    position: relative;
+  }
+  .table-custom {
+    position: absolute;
+    top: 0;
+  }
+  .table>caption {
+    padding-top: 8px;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+  }
+  .table>thead>tr>th {
+    color: #2B5A6C;
+    padding: 15px;
+    font-size: 16px;
+    height: 162px;
+  }
+  .table>tbody>tr>th,
+  .table>tfoot>tr>th,
+  .table>thead>tr>td,
+  .table>tbody>tr>td,
+  .table>tfoot>tr>td {
+    color: #fff;
+    padding: 14px;
+    line-height: 1.37400;
+    font-size: 16px;
+  }
+  .table>tbody>tr>th.caption-custom {
+    color: #fff;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+.translate {
+  color: #fff;
+  text-align: center;
+}
+.translate img {
+  width: 214px;
+}
+.translate h4 {
+  margin: 20px 0;
+}
+
+/*------------*/
+.how h4 {
+  text-align: center;
+}
+.how img {
+  text-align: center;
+  width: 130px;
+}
+
+/*------------*/
+.nice img {
+  width: 200px;
+}
+@media (min-width: 768px) {
+  .nice .panel {
+    height: 280px;
+  }
+}
+/*------------*/
+.contacts {
+
 }
 
 /* Articles */
@@ -68,3 +176,20 @@
 footer {
   padding: 20px 0px;
 }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
